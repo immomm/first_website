@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300;500;700&display=swap');
+
+/* @font-face {
+    font-weight: 500;
+    font-family: 'Handjet';
+    src: url('.\Шрифты\Handjet\static\Handjet-Medium.ttf') format('ttf');
+  } */
+
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+    background: url('https://w.forfun.com/fetch/70/7047b702475924ba8f8044b5b5ca56ba.jpeg') no-repeat;
+    background-size: 100%; 
+    background-position: 100% 50%;
+    background-attachment: fixed;
+    height: 110em;
+    
+}
+
+.header {
+    color: white;
+    background-color: rgb(178, 178, 255);
+    width: 90%;
+    height: 55px;
+    position: fixed;
+    top: 10px;
+    left: 5%;
+    z-index: 1;
+    line-height: 55px;
+
+}
+
+.header p {
+    font-size: 40px;
+    padding-left: 20px;
+    font-weight: 700;
+    font-family: 'Handjet';
+    text-transform: uppercase;
+    display: inline;
+    position: absolute;
+}
+
+.header ul {
+    font-size: 30px;
+    margin-left: 25%;
+    font-weight: 500;
+    font-family: 'Handjet';
+    list-style: none;
+    display: block;
+    position: absolute; 
+
+}
+
+
+a {
+    text-decoration:none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(0, 0, 0)
+}
+
+.header li {
+    display: inline;
+}
+
+.header li:not(:last-of-type){
+    margin-right: 100px;
+}
+
+
+.shadow_of_header {
+    background-color: rgb(0, 0, 0, 0.4);
+    width: 90%;
+    height: 55px;
+    position: fixed;
+    top: 15px;
+    left: 4.6%;
+}
+
+.side {
+    background-color: rgb(178, 178, 255, 0.8);
+    height: 100em;
+    width: 17%;
+    position: absolute;
+    top: 5.5em;
+    left: 5.5%;
+    border: 2px solid black;
+}
+
+.main{
+    background-color: rgba(213, 213, 213, 0.8);
+    height: 100em;
+    width: 70%;
+    position: absolute;
+    top: 5.5em;
+    left: 24%;
+    border: 2px solid black;
+}
+
+.main p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Handjet', cursive;
+}
+
+img{
+    width: 70%;
+    margin: 1% 15%;
+}
+
+.pressed {
+    background-color:rgb(0, 0, 0, 0.2);
+    padding: 5px;
+    border-top: 2px solid rgb(0, 0, 0, 0.25);
+    border-right: 2px solid rgb(0, 0, 0, 0.25);
+    color: rgb(255, 255, 255, 0.9);
+    font-size: 29px;
+}
